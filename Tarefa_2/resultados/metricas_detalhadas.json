@@ -1,0 +1,122 @@
+{
+  "CNN simples": {
+    "accuracy": 0.8493333333333334,
+    "precision_macro": 0.8554730954509853,
+    "recall_macro": 0.8520596679771923,
+    "f1_macro": 0.8507054400788211,
+    "classification_report": {
+      "buildings": {
+        "precision": 0.8120805369127517,
+        "recall": 0.8306636155606407,
+        "f1-score": 0.8212669683257918,
+        "support": 437.0
+      },
+      "forest": {
+        "precision": 0.959915611814346,
+        "recall": 0.959915611814346,
+        "f1-score": 0.959915611814346,
+        "support": 474.0
+      },
+      "glacier": {
+        "precision": 0.8778280542986425,
+        "recall": 0.701627486437613,
+        "f1-score": 0.7798994974874371,
+        "support": 553.0
+      },
+      "mountain": {
+        "precision": 0.744,
+        "recall": 0.8857142857142857,
+        "f1-score": 0.808695652173913,
+        "support": 525.0
+      },
+      "sea": {
+        "precision": 0.8336380255941499,
+        "recall": 0.8941176470588236,
+        "f1-score": 0.8628192999053926,
+        "support": 510.0
+      },
+      "street": {
+        "precision": 0.9053763440860215,
+        "recall": 0.8403193612774451,
+        "f1-score": 0.8716356107660456,
+        "support": 501.0
+      },
+      "accuracy": 0.8493333333333334,
+      "macro avg": {
+        "precision": 0.8554730954509853,
+        "recall": 0.8520596679771923,
+        "f1-score": 0.8507054400788211,
+        "support": 3000.0
+      },
+      "weighted avg": {
+        "precision": 0.8548890166993783,
+        "recall": 0.8493333333333334,
+        "f1-score": 0.8488235295352557,
+        "support": 3000.0
+      }
+    },
+    "best_validation_accuracy": 0.8535281539558089,
+    "training_seconds": 487.24823170003947,
+    "parameters": 619334
+  },
+  "CNN regularizada": {
+    "accuracy": 0.836,
+    "precision_macro": 0.8380727451777693,
+    "recall_macro": 0.8378712844210807,
+    "f1_macro": 0.837369591093238,
+    "classification_report": {
+      "buildings": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8009153318077803,
+        "f1-score": 0.8168028004667445,
+        "support": 437.0
+      },
+      "forest": {
+        "precision": 0.9215291750503019,
+        "recall": 0.9662447257383966,
+        "f1-score": 0.9433573635427395,
+        "support": 474.0
+      },
+      "glacier": {
+        "precision": 0.7984790874524715,
+        "recall": 0.759493670886076,
+        "f1-score": 0.7784986098239111,
+        "support": 553.0
+      },
+      "mountain": {
+        "precision": 0.7666666666666667,
+        "recall": 0.8323809523809523,
+        "f1-score": 0.7981735159817351,
+        "support": 525.0
+      },
+      "sea": {
+        "precision": 0.8577405857740585,
+        "recall": 0.803921568627451,
+        "f1-score": 0.8299595141700404,
+        "support": 510.0
+      },
+      "street": {
+        "precision": 0.8506876227897839,
+        "recall": 0.8642714570858283,
+        "f1-score": 0.8574257425742574,
+        "support": 501.0
+      },
+      "accuracy": 0.836,
+      "macro avg": {
+        "precision": 0.8380727451777693,
+        "recall": 0.8378712844210807,
+        "f1-score": 0.837369591093238,
+        "support": 3000.0
+      },
+      "weighted avg": {
+        "precision": 0.8362242095880594,
+        "recall": 0.836,
+        "f1-score": 0.8354982301675611,
+        "support": 3000.0
+      }
+    },
+    "best_validation_accuracy": 0.8406985032074127,
+    "training_seconds": 427.5634395000525,
+    "parameters": 620294
+  }
+}

@@ -1,0 +1,5 @@
+data/
+resultados/*.pt
+resultados_execucao/
+resultados_teste/
+__pycache__/
